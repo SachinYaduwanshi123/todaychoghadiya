@@ -10,6 +10,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  --color-saffron-50: #fff8f1;
+  --color-saffron-100: #ffecd9;
+  --color-saffron-200: #ffd4b0;
+  --color-saffron-300: #ffb580;
+  --color-saffron-400: #ff8e45;
+  --color-saffron-500: #ff6f14;
+  --color-saffron-600: #f05506;
+  --color-saffron-700: #c74007;
+  --color-saffron-800: #9e320d;
+  --color-saffron-900: #7e2a0e;
+  --color-saffron-950: #441305;
 }
 
 @media (prefers-color-scheme: dark) {
