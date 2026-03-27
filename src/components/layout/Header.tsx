@@ -22,6 +22,12 @@ export default function Header() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex space-x-4 sm:space-x-8 overflow-x-auto whitespace-nowrap text-sm font-bold tracking-wide">
           <Link href="/" className="text-gray-700 hover:text-saffron-600 px-2 py-1.5 rounded-lg hover:bg-orange-100/50 transition-colors">Daily Choghadiya</Link>
           <Link href="/panchang" className="text-gray-700 hover:text-saffron-600 px-2 py-1.5 rounded-lg hover:bg-orange-100/50 transition-colors">Today Panchang</Link>
+          <Link href="/kundli" className="text-gray-700 hover:text-saffron-600 px-2 py-1.5 rounded-lg hover:bg-orange-100/50 transition-colors flex items-center">
+            <span className="mr-1 text-orange-500 text-lg">🪐</span> Kundli
+          </Link>
+          <Link href="/love-calculator" className="text-gray-700 hover:text-saffron-600 px-2 py-1.5 rounded-lg hover:bg-orange-100/50 transition-colors flex items-center">
+            <span className='mr-1'> ❤️ </span> Love Calculator <span className="ml-1 text-rose-500">❤️</span>
+          </Link>
         </div>
       </div>
     </header>

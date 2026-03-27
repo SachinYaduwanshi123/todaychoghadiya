@@ -65,6 +65,7 @@ export default function RootLayout({
                 <ul className="space-y-3 text-sm text-neutral-400 font-medium">
                   <li><Link href="/" className="hover:text-saffron-400 hover:translate-x-1 inline-flex transition-all duration-300">Daily Choghadiya</Link></li>
                   <li><Link href="/panchang" className="hover:text-saffron-400 hover:translate-x-1 inline-flex transition-all duration-300">Today Panchang</Link></li>
+                  <li><Link href="/love-calculator" className="hover:text-saffron-400 hover:translate-x-1 inline-flex transition-all duration-300">Love Calculator</Link></li>
                   <li><Link href="/festival-calendar" className="hover:text-saffron-400 hover:translate-x-1 inline-flex transition-all duration-300">Hindu Festival Calendar</Link></li>
                 </ul>
               </div>
